@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: 'Build accounting confidence. Master practical auditing.',
     type: 'website',
   },
-  icons: { icon: '/icon.svg', apple: '/apple-icon.png' },
+  icons: { icon: '/anutech.jpg', apple: '/anutech.jpg' },
 }
 
 export const viewport: Viewport = { colorScheme: 'light', themeColor: '#10213A' }
