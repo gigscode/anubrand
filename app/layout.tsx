@@ -3,11 +3,10 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Anu Brand | Accounting & Auditing Training',
+  title: 'Anuoluwapo | Accounting & Auditing Training',
   description: 'Practical accounting and auditing training with personalized learning pathways for beginners, working professionals, and experienced finance leaders.',
-  generator: 'v0.app',
   openGraph: {
-    title: 'Anu Brand | Accounting & Auditing Training',
+    title: 'Anuoluwapo | Accounting & Auditing Training',
     description: 'Build accounting confidence. Master practical auditing.',
     type: 'website',
   },
