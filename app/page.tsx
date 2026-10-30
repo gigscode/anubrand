@@ -50,7 +50,7 @@ export default function Page() {
     setModalOpen(true)
   }
   const openWhatsApp = () => {
-    const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER?.replace(/\D/g, '')
+    const number = (process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '2348061559652').replace(/\D/g, '')
     if (!number) { setStatus('error'); return }
     const message = `Hello Anu Brand, my name is ${formState.name}. I am interested in Accounting & Auditing Training for the January 2027 cohort. Experience level: ${trackLabel(formState.level)}. Preferred format: ${formState.format}. My learning goal is: ${formState.goal || 'Not specified'}. Please share the course details, schedule, and fees.`
     window.open(`https://wa.me/${number}?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer')
